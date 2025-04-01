@@ -56,10 +56,6 @@ public class QuestionBank {
         } else {
             System.out.println("Invalid question format.");
         }
-
-        if (questionList.isEmpty()) {
-            System.out.println("Congrats! You completed the game. You are a warrior.");
-        }
     }
 
     private void loadQuestions(String filename, List<String> questionList) throws FileNotFoundException {
