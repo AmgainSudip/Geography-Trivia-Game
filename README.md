@@ -1,6 +1,6 @@
 # Trivia Game
 
-This is a simple trivia game implemented in Java. The game allows the user to answer questions from three categories: **Easy**, **Medium**, and **Hard**. The questions are randomly selected from the corresponding category files, and the user is asked to select the correct answer from multiple choices.
+This is a simple geography trivia game implemented in Java. The game allows the user to answer questions from three categories: **Easy**, **Medium**, and **Hard**. The questions are randomly selected from the corresponding category files, and the user is asked to select the correct answer from multiple choices.
 
 ## Features
 
