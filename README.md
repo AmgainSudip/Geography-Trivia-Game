@@ -13,12 +13,12 @@ This is a simple trivia game implemented in Java. The game allows the user to an
 ## Requirements
 
 - Java 8 or higher
-- Questions files (`easy.txt`, `medium.txt`, `hard.txt`)
+- Questions files (`easy`, `medium`, `hard`)
 
 ## Setup
 
 1. Clone the repository to your local machine:
-   git clone https://github.com/AmgainSudip/trivia-game.git
+   git clone https://github.com/AmgainSudip/Geography-Trivia-Game/tree/main
    
 3. Naviagte to the project directory:
   cd trivia-game
