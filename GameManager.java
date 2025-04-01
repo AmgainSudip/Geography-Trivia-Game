@@ -14,9 +14,10 @@ public class GameManager { // Controls game flow
 		
 		// Display the welcome message and game options
 		System.out.println("Welcome to the Geography Trivia Game!");
-		System.out.println("If you want to start the game type 1.\nIf you want the instructions on how to play the game type 2.\nIf you want to end the game type 3.");
+
 		
 		while(true) {  // Loop to keep the game running until the user decides to quit
+			System.out.println("If you want to start the game type 1.\nIf you want the instructions on how to play the game type 2.\nIf you want to end the game type 3.");
 			System.out.print("Enter your input: ");
 			int input = scnr.nextInt();  // Read the user's input
 			scnr.nextLine();  // Consume any newline characters left in the input buffer
@@ -143,8 +144,6 @@ public class GameManager { // Controls game flow
 		        System.out.println("6. Game Over: ");
 		        System.out.println("   - The game ends when you either finish all the questions or lose all your lives.");
 		        System.out.println("\nGood luck, and may the best geographer win!");
-		        
-		        System.out.println("\nIf you want to start the game type 1, to end the game type 3.");
 		        continue;  // Continue to the next iteration of the menu
 		
 			}
