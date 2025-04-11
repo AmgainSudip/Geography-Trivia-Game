@@ -34,5 +34,12 @@ public class PlayerStats { // Handles Player Score and Stats
     public int getQuestionCount() {
         return questionCount;  // Return the question count
     }
+    
+    public void resetStats() {
+        playerScore = 0;
+        playerLives = 3;
+        questionCount = 0;
+    }
+
 }
 
